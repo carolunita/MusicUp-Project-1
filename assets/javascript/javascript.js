@@ -263,9 +263,6 @@ function googleMapsGeocoding() {
         latitude = response.results[0].geometry.location.lat;
         longitude = response.results[0].geometry.location.lng;
         googleMapsJavascript();
-
-        // search for nearby places
-        googlePlaces();
     });
 }
 
